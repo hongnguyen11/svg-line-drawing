@@ -1,3 +1,90 @@
 html {
   font-family: "Unica One", sans-serif;
 }
+
+.banner {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  display: inline-block;
+  bottom: 6em;
+  z-index: 3;
+  color: #fff;
+  animation: opacity 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-body {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1908.791px; /* The length of the stroke */
+  stroke-dashoffset: 1908.791px; /* The length of the stroke */
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#narwhal-eye {
+  animation: opacity .5s 1s linear forwards;
+  opacity: 0;
+}
+
+#rainbow-violet {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1917.692px; /* The length of the stroke */
+  stroke-dashoffset: 1917.692px; /* The length of the stroke */
+}
+
+#rainbow-indigo {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1812.502px; /* The length of the stroke */
+  stroke-dashoffset: 1812.502px; /* The length of the stroke */
+}
+
+#rainbow-blue {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1705.479px; /* The length of the stroke */
+  stroke-dashoffset: 1705.479px; /* The length of the stroke */
+}
+
+#rainbow-green {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1596.043px; /* The length of the stroke */
+  stroke-dashoffset: 1596.043px; /* The length of the stroke */
+}
+
+#rainbow-yellow {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1483.352px; /* The length of the stroke */
+  stroke-dashoffset: 1483.352px; /* The length of the stroke */
+}
+
+#rainbow-orange {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1366.26px; /* The length of the stroke */
+  stroke-dashoffset: 1366.26px; /* The length of the stroke */
+}
+
+#rainbow-red {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1243.044px; /* The length of the stroke */
+  stroke-dashoffset: 1243.044px; /* The length of the stroke */
+}
